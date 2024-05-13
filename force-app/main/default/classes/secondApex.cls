@@ -3,7 +3,7 @@ public with sharing class secondApex {
         //this is a second class for check class commit change from pipeline
     }
 
-    public List<Account> myFirstApexClass() {
+    public static List<Account> myFirstApexClass() {
         List<Account> accList = new List<Account>();
         accList = [select id, name from account];
         return accList;
