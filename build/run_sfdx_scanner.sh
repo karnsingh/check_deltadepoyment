@@ -1,6 +1,7 @@
-echo "Installing JDK"
-sudo apt-get install oracle-java8-installer
+#echo "Installing JDK"
+#sudo apt-get install oracle-java8-installer
 #sudo apt-get install openjdk-8-jdk
+#sudo apt-get install -y openjdk-8-jdk
 
 echo "Install SFDX Scanner"
 echo -e 'y/n' | sfdx plugins:install @salesforce/sfdx-scanner
