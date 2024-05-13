@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 **/venv/
 
 Construcverse_v1.cer
+Server.csr
+server.crt
+server.key
+certtext.txt
+
