@@ -1,9 +1,5 @@
 @isTest
 public with sharing class secondTestClass {
-    public secondTestClass() {
-
-    }
-
     @isTest
     public static void testMethod() {
         
