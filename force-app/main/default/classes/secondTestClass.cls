@@ -1,7 +1,7 @@
 @isTest
-public with sharing class secondTestClass {
+public class secondTestClass {
     @isTest
-    public static void testMethod() {
+    static void testMethod() {
         
         List<Account> accList = secondApex.myFirstApexClass();
         for(Account acc : accList){
